@@ -1,0 +1,14 @@
+node_modules
+gulp
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+scss
+
+gulpfile.js
+*.js.map
+.vscode
+scripts
