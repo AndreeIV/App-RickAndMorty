@@ -1,0 +1,44 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+h1, h2, h3 {
+    color: v.$white;
+}
+
+
+.card_character {
+
+    background-color: v.$dark-gray;
+    border-radius: 1rem;
+    padding: 3rem;
+
+    .card_title {
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .card_img {
+        min-width: 100%;
+        height: 28rem;
+    }
+
+    .card_created {
+        color: black;
+        font-size: 2rem;
+        font-weight: 500;
+
+        span {
+            color: purple;
+        }
+    }
+    .card_gender {
+        color: black;
+    }
+    .card_status {
+        color: black;
+    }
+    .card_specie {
+        color: black;
+    }
+}

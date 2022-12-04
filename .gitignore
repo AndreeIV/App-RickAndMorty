@@ -6,9 +6,9 @@ gulp
 *.css.map
 *.sass.map
 *.scss.map
-scss
+# scss
 
 gulpfile.js
 *.js.map
 .vscode
-scripts
+# scripts
